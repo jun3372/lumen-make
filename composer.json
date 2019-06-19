@@ -1,0 +1,26 @@
+{
+    "name": "jun3/lumen-make",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "哲学",
+            "email": "zhoujun3372@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/console": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jun3\\LumenMake\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jun3\\LumenMake\\ServiceProvider"
+            ]
+        }
+    }
+}

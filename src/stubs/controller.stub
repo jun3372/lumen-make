@@ -1,0 +1,14 @@
+<?php
+
+namespace  DummyNamespace;
+
+use App\Http\Controllers\Controller;
+use Laravel\Lumen\Http\Request;
+
+class DummyClass extends Controller
+{
+    public function index(Request $request)
+    {
+        
+    }
+}
