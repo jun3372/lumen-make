@@ -1,6 +1,6 @@
 <h1 align="center"> lumen-make </h1>
 
-<p align="center"> Lumen Job, Modle, Controller, Command, Middleware, Logic, Service, Task 自动创建脚手架</p>
+<p align="center"> Lumen Job, Modle, Controller, Command, Middleware, Logic, Service, Task, Event, Exception, Provider, Listener 自动创建脚手架</p>
 
 
 ## Installing
@@ -20,6 +20,21 @@ $ composer require jun3/lumen-make -vvv
 $app->register(Jun3\LumenMake\ServiceProvider::class);
 ```
 
+## 使用
+
+### 命令
+* `make:job {name}`
+* `make:task {name}`
+* `make:model {name}`
+* `make:event {name}`
+* `make:logic {name}`
+* `make:service {name}`
+* `make:console {name}`
+* `make:provider {name}`
+* `make:listener {name}`
+* `make:exception {name}`
+* `make:controller {name}`
+* `make:middleware {name}`
 
 ## Contributing
 

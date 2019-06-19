@@ -15,12 +15,5 @@
         "psr-4": {
             "Jun3\\LumenMake\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Jun3\\LumenMake\\ServiceProvider"
-            ]
-        }
     }
 }
