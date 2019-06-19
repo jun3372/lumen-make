@@ -1,6 +1,6 @@
 {
     "name": "jun3/lumen-make",
-    "description": "Package description here.",
+    "description": "Lumen Job, Modle, Controller, Command, Middleware, Logic, Service, Task, Event, Exception, Provider, Listener 自动创建脚手架",
     "license": "MIT",
     "authors": [
         {
