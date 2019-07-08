@@ -1,6 +1,6 @@
 <h1 align="center"> lumen-make </h1>
 
-<p align="center"> Lumen Job, Modle, Controller, Command, Middleware, Logic, Service, Task, Event, Exception, Provider, Listener 自动创建脚手架</p>
+<p align="center"> Lumen Job, Modle, Controller, Command, Middleware, Logic, Service, Task, Event, Exception, Provider, Listener, Trait 自动创建脚手架</p>
 
 
 ## Installing
