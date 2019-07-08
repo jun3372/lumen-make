@@ -54,6 +54,6 @@ class TraitMakeCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Model\Trait';
+        return $rootNamespace . '\Model\Traits';
     }
 }

@@ -5,7 +5,7 @@ namespace DummyNamespace;
 /**
  * Trait DummyClass
  *
- * @package App\Model\Trait\DummyClass
+ * @package DummyNamespace\DummyClass
  */
 trait DummyClass
 {
