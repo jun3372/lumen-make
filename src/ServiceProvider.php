@@ -15,6 +15,7 @@ use Jun3\LumenMake\Commands\CommandMakeCommand\JobMakeCommand;
 use Jun3\LumenMake\Commands\CommandMakeCommand\ProviderMakeCommand;
 use Jun3\LumenMake\Commands\CommandMakeCommand\ServiceMakeCommand;
 use Jun3\LumenMake\Commands\CommandMakeCommand\TaskMakeCommand;
+use Jun3\LumenMake\Commands\TraitMakeCommand;
 
 /**
  * @uses     ServiceProvider
@@ -47,6 +48,7 @@ class ServiceProvider extends LumenServiceProvider
             LogicMakeCommand::class,
             EventMakeCommand::class,
             TaskMakeCommand::class,
+            TraitMakeCommand::class,
         ]);
     }
 }
