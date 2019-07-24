@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "illuminate/console": "^5.8"
+        "illuminate/console": "^5.6"
     },
     "autoload": {
         "psr-4": {
