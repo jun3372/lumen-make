@@ -1,14 +1,14 @@
 <?php
 
-
 namespace Jun3\LumenMake\Commands;
-
 
 use Illuminate\Console\GeneratorCommand;
 
 /**
  * @uses     TraitMakeCommand
+ *
  * @version  2019年07月08日
+ *
  * @author   Jun <zhoujun3372@gmail.com>
  * @license  PHP Version 7.1.x {@link [图片]http://www.php.net/license/3_0.txt}
  */
@@ -42,7 +42,7 @@ class TraitMakeCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return dirname(__DIR__) . '/stubs/trait.stub';
+        return dirname(__DIR__).'/stubs/trait.stub';
     }
 
     /**
@@ -54,6 +54,6 @@ class TraitMakeCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Model\Traits';
+        return $rootNamespace.'\Model\Traits';
     }
 }

@@ -6,8 +6,9 @@ use Illuminate\Console\GeneratorCommand;
 
 /**
  * @uses     MiddlewareMakeCommand
- * @package  Jun3\LumenMake\Commands\CommandMakeCommand
+ *
  * @version  2019年06月19日
+ *
  * @author   Jun <zhoujun3372@gmail.com>
  * @license  PHP Version 7.1.x {@link [图片]http://www.php.net/license/3_0.txt}
  */
@@ -41,7 +42,7 @@ class MiddlewareMakeCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return dirname(__DIR__) . '/stubs/middleware.stub';
+        return dirname(__DIR__).'/stubs/middleware.stub';
     }
 
     /**
@@ -53,6 +54,6 @@ class MiddlewareMakeCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Http\Middleware';
+        return $rootNamespace.'\Http\Middleware';
     }
 }

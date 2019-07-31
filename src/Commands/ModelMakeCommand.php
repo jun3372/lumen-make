@@ -1,15 +1,14 @@
 <?php
 
-
 namespace Jun3\LumenMake\Commands\CommandMakeCommand;
-
 
 use Illuminate\Console\GeneratorCommand;
 
 /**
  * @uses     ModelMakeCommand
- * @package  Jun3\LumenMake\Commands\CommandMakeCommand
+ *
  * @version  2019年06月19日
+ *
  * @author   Jun <zhoujun3372@gmail.com>
  * @license  PHP Version 7.1.x {@link [图片]http://www.php.net/license/3_0.txt}
  */
@@ -43,7 +42,7 @@ class ModelMakeCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return dirname(__DIR__) . '/stubs/model.stub';
+        return dirname(__DIR__).'/stubs/model.stub';
     }
 
     /**
@@ -55,6 +54,6 @@ class ModelMakeCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Model\Entity';
+        return $rootNamespace.'\Model\Entity';
     }
 }
